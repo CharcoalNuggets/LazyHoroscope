@@ -16,7 +16,7 @@ int main()
   cin >> last;
 
   //tell fortune
-  
+  cout << "Welcome " << first[0] << "." << last[0] << "., here is your fortune...\n";  
 
   return 0;
 }
