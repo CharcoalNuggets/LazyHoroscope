@@ -40,7 +40,7 @@ int main()
   cout << "you should keep a low profile.\n";
   }
 
-  lastLetter = last.length()-1 ;
+  lastLetter = last.length();
   if ( lastLetter == 'A'
     || lastLetter == 'E'
     || lastLetter == 'I'
