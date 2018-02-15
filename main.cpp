@@ -8,7 +8,7 @@ int main()
 {
   //declare variables
   string first, last;
-  int lucky, lastLetter;
+  int lucky;
 
   //get user input
   cout << "What is your first name?\n";
@@ -40,17 +40,16 @@ int main()
   cout << "you should keep a low profile.\n";
   }
 
-  lastLetter = last.length();
-  if ( lastLetter == 'A'
-    || lastLetter == 'E'
-    || lastLetter == 'I'
-    || lastLetter == 'O'
-    || lastLetter == 'U'
-    || lastLetter == 'a'
-    || lastLetter == 'e'
-    || lastLetter == 'i'
-    || lastLetter == 'o'
-    || lastLetter == 'u' )
+  if ( last[last.length()-1] == 'A'
+    || last[last.length()-1] == 'E'
+    || last[last.length()-1] == 'I'
+    || last[last.length()-1] == 'O'
+    || last[last.length()-1] == 'U'
+    || last[last.length()-1] == 'a'
+    || last[last.length()-1] == 'e'
+    || last[last.length()-1] == 'i'
+    || last[last.length()-1] == 'o'
+    || last[last.length()-1] == 'u' )
   {
   cout << "you have already met your true love.\n";
   }
