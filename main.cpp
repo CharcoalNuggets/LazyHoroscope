@@ -17,10 +17,10 @@ int main()
   cin >> last;
 
   //tell fortune
-  cout << "Welcome " << first[0] << "." << last[0] << "., here is your fortune...\n";  
+  cout << "Welcome, " << first[0] << "." << last[0] << "., here is your fortune...\n";  
   
   lucky = first.length() + last.length();
-  cout << "Your lucky number is " << lucky << endl;
+  cout << "your lucky number is " << lucky << endl;
 
   if ( first[0] == 'A' 
     || first[0] == 'E' 
@@ -33,11 +33,11 @@ int main()
     || first[0] == 'o'
     || first[0] == 'u' )
   {
-  cout << "You are destined to be famous.\n";
+  cout << "you are destined to be famous.\n";
   }
   else
-  {
-  cout << "You should keep a low profile.\n";
+  {  
+  cout << "you should keep a low profile.\n";
   }
 
   lastLetter = last.length()-1 ;
@@ -52,9 +52,9 @@ int main()
     || lastLetter == 'o'
     || lastLetter == 'u' )
   {
-  cout << "You have already met your true love.\n";
+  cout << "you have already met your true love.\n";
   }
-  cout << "Have a good day!\n";
+  cout << "have a good day!\n";
 
   return 0;
 }
