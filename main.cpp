@@ -19,7 +19,7 @@ int main()
   //tell fortune
   cout << "Welcome, " << first[0] << "." << last[0] << "., here is your fortune...\n";  
   
-  lucky = first.length() + last.length();
+  lucky = first.length();
   cout << "your lucky number is " << lucky << endl;
 
   if ( first[0] == 'A' 
@@ -33,7 +33,7 @@ int main()
     || first[0] == 'o'
     || first[0] == 'u' )
   {
-  cout << "you are destined to be famous.\n";
+  cout << "you are destined to be famous!\n";
   }
   else
   {  
